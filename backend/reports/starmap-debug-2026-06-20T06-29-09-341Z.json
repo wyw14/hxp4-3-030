@@ -1,0 +1,1879 @@
+{
+  "generatedAt": "2026-06-20T06:29:09.340Z",
+  "serverUrl": "http://localhost:3003",
+  "serverReachable": true,
+  "totalLevels": 3,
+  "totalEdges": 33,
+  "totalPassed": 5,
+  "totalAnomalies": 28,
+  "levelReports": [
+    {
+      "levelId": 1,
+      "levelName": "苍穹神龙",
+      "creatureName": "苍龙",
+      "totalEdges": 7,
+      "passedEdges": 2,
+      "anomalyEdges": 5,
+      "edgeResults": [
+        {
+          "edge": {
+            "from": "a1",
+            "to": "a2",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "a1",
+            "x": 0.15,
+            "y": 0.75,
+            "frequency": 1,
+            "name": "龙角",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "toPoint": {
+            "id": "a2",
+            "x": 0.22,
+            "y": 0.68,
+            "frequency": 2,
+            "name": "龙眼",
+            "baseBrightness": 0.9,
+            "size": 4
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1,
+          "frequencyTo": 2,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a1": 1,
+              "a2": 2
+            },
+            "ratio": [
+              1,
+              2
+            ]
+          },
+          "isAnomaly": false,
+          "anomalyReasons": []
+        },
+        {
+          "edge": {
+            "from": "a2",
+            "to": "a3",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "a2",
+            "x": 0.22,
+            "y": 0.68,
+            "frequency": 2,
+            "name": "龙眼",
+            "baseBrightness": 0.9,
+            "size": 4
+          },
+          "toPoint": {
+            "id": "a3",
+            "x": 0.32,
+            "y": 0.7,
+            "frequency": 1,
+            "name": "龙鼻",
+            "baseBrightness": 0.7,
+            "size": 3
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 2,
+          "frequencyTo": 1,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a2": 2,
+              "a3": 1
+            },
+            "ratio": [
+              1,
+              2
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:2, 实际 2:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "a3",
+            "to": "a4",
+            "frequencyRatio": [
+              1,
+              3
+            ]
+          },
+          "fromPoint": {
+            "id": "a3",
+            "x": 0.32,
+            "y": 0.7,
+            "frequency": 1,
+            "name": "龙鼻",
+            "baseBrightness": 0.7,
+            "size": 3
+          },
+          "toPoint": {
+            "id": "a4",
+            "x": 0.42,
+            "y": 0.62,
+            "frequency": 3,
+            "name": "龙颈",
+            "baseBrightness": 0.75,
+            "size": 3.2
+          },
+          "expectedRatio": [
+            1,
+            3
+          ],
+          "actualRatio": [
+            1,
+            3
+          ],
+          "frequencyFrom": 1,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a3": 1,
+              "a4": 3
+            },
+            "ratio": [
+              1,
+              3
+            ]
+          },
+          "isAnomaly": false,
+          "anomalyReasons": []
+        },
+        {
+          "edge": {
+            "from": "a4",
+            "to": "a5",
+            "frequencyRatio": [
+              3,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "a4",
+            "x": 0.42,
+            "y": 0.62,
+            "frequency": 3,
+            "name": "龙颈",
+            "baseBrightness": 0.75,
+            "size": 3.2
+          },
+          "toPoint": {
+            "id": "a5",
+            "x": 0.55,
+            "y": 0.55,
+            "frequency": 2,
+            "name": "龙心",
+            "baseBrightness": 1,
+            "size": 4.5
+          },
+          "expectedRatio": [
+            3,
+            2
+          ],
+          "actualRatio": [
+            3,
+            2
+          ],
+          "frequencyFrom": 3,
+          "frequencyTo": 2,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a4": 3,
+              "a5": 2
+            },
+            "ratio": [
+              2,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 3:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "a5",
+            "to": "a6",
+            "frequencyRatio": [
+              4,
+              3
+            ]
+          },
+          "fromPoint": {
+            "id": "a5",
+            "x": 0.55,
+            "y": 0.55,
+            "frequency": 2,
+            "name": "龙心",
+            "baseBrightness": 1,
+            "size": 4.5
+          },
+          "toPoint": {
+            "id": "a6",
+            "x": 0.68,
+            "y": 0.48,
+            "frequency": 1.5,
+            "name": "龙爪",
+            "baseBrightness": 0.7,
+            "size": 3
+          },
+          "expectedRatio": [
+            4,
+            3
+          ],
+          "actualRatio": [
+            4,
+            3
+          ],
+          "frequencyFrom": 2,
+          "frequencyTo": 1.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a5": 2,
+              "a6": 1.5
+            },
+            "ratio": [
+              1.5,
+              2
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:1, 实际 4:3"
+          ]
+        },
+        {
+          "edge": {
+            "from": "a6",
+            "to": "a7",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "a6",
+            "x": 0.68,
+            "y": 0.48,
+            "frequency": 1.5,
+            "name": "龙爪",
+            "baseBrightness": 0.7,
+            "size": 3
+          },
+          "toPoint": {
+            "id": "a7",
+            "x": 0.78,
+            "y": 0.38,
+            "frequency": 3,
+            "name": "龙脊",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1.5,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a6": 1.5,
+              "a7": 3
+            },
+            "ratio": [
+              1.5,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 1:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "a7",
+            "to": "a8",
+            "frequencyRatio": [
+              3,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "a7",
+            "x": 0.78,
+            "y": 0.38,
+            "frequency": 3,
+            "name": "龙脊",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "toPoint": {
+            "id": "a8",
+            "x": 0.85,
+            "y": 0.28,
+            "frequency": 1,
+            "name": "龙尾",
+            "baseBrightness": 0.85,
+            "size": 3.8
+          },
+          "expectedRatio": [
+            3,
+            1
+          ],
+          "actualRatio": [
+            3,
+            1
+          ],
+          "frequencyFrom": 3,
+          "frequencyTo": 1,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "a7": 3,
+              "a8": 1
+            },
+            "ratio": [
+              1,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:3, 实际 3:1"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 2,
+      "levelName": "涅槃凤凰",
+      "creatureName": "朱雀",
+      "totalEdges": 11,
+      "passedEdges": 2,
+      "anomalyEdges": 9,
+      "edgeResults": [
+        {
+          "edge": {
+            "from": "b1",
+            "to": "b2",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "b1",
+            "x": 0.5,
+            "y": 0.2,
+            "frequency": 1.2,
+            "name": "凤冠",
+            "baseBrightness": 0.95,
+            "size": 4.2
+          },
+          "toPoint": {
+            "id": "b2",
+            "x": 0.42,
+            "y": 0.3,
+            "frequency": 2.4,
+            "name": "凤眼",
+            "baseBrightness": 0.9,
+            "size": 3.8
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1.2,
+          "frequencyTo": 2.4,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b1": 1.2,
+              "b2": 2.4
+            },
+            "ratio": [
+              1.2,
+              2.4
+            ]
+          },
+          "isAnomaly": false,
+          "anomalyReasons": []
+        },
+        {
+          "edge": {
+            "from": "b1",
+            "to": "b3",
+            "frequencyRatio": [
+              1,
+              3
+            ]
+          },
+          "fromPoint": {
+            "id": "b1",
+            "x": 0.5,
+            "y": 0.2,
+            "frequency": 1.2,
+            "name": "凤冠",
+            "baseBrightness": 0.95,
+            "size": 4.2
+          },
+          "toPoint": {
+            "id": "b3",
+            "x": 0.58,
+            "y": 0.3,
+            "frequency": 3.6,
+            "name": "凤眼",
+            "baseBrightness": 0.9,
+            "size": 3.8
+          },
+          "expectedRatio": [
+            1,
+            3
+          ],
+          "actualRatio": [
+            1,
+            3
+          ],
+          "frequencyFrom": 1.2,
+          "frequencyTo": 3.6,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b1": 1.2,
+              "b3": 3.6
+            },
+            "ratio": [
+              1.2,
+              3.6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:4, 实际 1:3"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b2",
+            "to": "b4",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "b2",
+            "x": 0.42,
+            "y": 0.3,
+            "frequency": 2.4,
+            "name": "凤眼",
+            "baseBrightness": 0.9,
+            "size": 3.8
+          },
+          "toPoint": {
+            "id": "b4",
+            "x": 0.5,
+            "y": 0.4,
+            "frequency": 1.2,
+            "name": "凤心",
+            "baseBrightness": 1,
+            "size": 4.8
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 2.4,
+          "frequencyTo": 1.2,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b2": 2.4,
+              "b4": 1.2
+            },
+            "ratio": [
+              1.2,
+              2.4
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:2, 实际 2:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b3",
+            "to": "b4",
+            "frequencyRatio": [
+              3,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "b3",
+            "x": 0.58,
+            "y": 0.3,
+            "frequency": 3.6,
+            "name": "凤眼",
+            "baseBrightness": 0.9,
+            "size": 3.8
+          },
+          "toPoint": {
+            "id": "b4",
+            "x": 0.5,
+            "y": 0.4,
+            "frequency": 1.2,
+            "name": "凤心",
+            "baseBrightness": 1,
+            "size": 4.8
+          },
+          "expectedRatio": [
+            3,
+            1
+          ],
+          "actualRatio": [
+            3,
+            1
+          ],
+          "frequencyFrom": 3.6,
+          "frequencyTo": 1.2,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b3": 3.6,
+              "b4": 1.2
+            },
+            "ratio": [
+              1.2,
+              3.6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:4, 实际 3:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b4",
+            "to": "b5",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "b4",
+            "x": 0.5,
+            "y": 0.4,
+            "frequency": 1.2,
+            "name": "凤心",
+            "baseBrightness": 1,
+            "size": 4.8
+          },
+          "toPoint": {
+            "id": "b5",
+            "x": 0.28,
+            "y": 0.45,
+            "frequency": 2.4,
+            "name": "左翼",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1.2,
+          "frequencyTo": 2.4,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b4": 1.2,
+              "b5": 2.4
+            },
+            "ratio": [
+              1.2,
+              2.4
+            ]
+          },
+          "isAnomaly": false,
+          "anomalyReasons": []
+        },
+        {
+          "edge": {
+            "from": "b5",
+            "to": "b6",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "b5",
+            "x": 0.28,
+            "y": 0.45,
+            "frequency": 2.4,
+            "name": "左翼",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "toPoint": {
+            "id": "b6",
+            "x": 0.15,
+            "y": 0.55,
+            "frequency": 1.2,
+            "name": "左翅尖",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 2.4,
+          "frequencyTo": 1.2,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b5": 2.4,
+              "b6": 1.2
+            },
+            "ratio": [
+              1.2,
+              2.4
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:2, 实际 2:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b4",
+            "to": "b7",
+            "frequencyRatio": [
+              1,
+              4
+            ]
+          },
+          "fromPoint": {
+            "id": "b4",
+            "x": 0.5,
+            "y": 0.4,
+            "frequency": 1.2,
+            "name": "凤心",
+            "baseBrightness": 1,
+            "size": 4.8
+          },
+          "toPoint": {
+            "id": "b7",
+            "x": 0.72,
+            "y": 0.45,
+            "frequency": 4.8,
+            "name": "右翼",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "expectedRatio": [
+            1,
+            4
+          ],
+          "actualRatio": [
+            1,
+            4
+          ],
+          "frequencyFrom": 1.2,
+          "frequencyTo": 4.8,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b4": 1.2,
+              "b7": 4.8
+            },
+            "ratio": [
+              1.2,
+              4.8
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:5, 实际 1:4"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b7",
+            "to": "b8",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "b7",
+            "x": 0.72,
+            "y": 0.45,
+            "frequency": 4.8,
+            "name": "右翼",
+            "baseBrightness": 0.8,
+            "size": 3.5
+          },
+          "toPoint": {
+            "id": "b8",
+            "x": 0.85,
+            "y": 0.55,
+            "frequency": 2.4,
+            "name": "右翅尖",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 4.8,
+          "frequencyTo": 2.4,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b7": 4.8,
+              "b8": 2.4
+            },
+            "ratio": [
+              2.4,
+              4.8
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:5, 实际 2:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b4",
+            "to": "b9",
+            "frequencyRatio": [
+              1,
+              3
+            ]
+          },
+          "fromPoint": {
+            "id": "b4",
+            "x": 0.5,
+            "y": 0.4,
+            "frequency": 1.2,
+            "name": "凤心",
+            "baseBrightness": 1,
+            "size": 4.8
+          },
+          "toPoint": {
+            "id": "b9",
+            "x": 0.5,
+            "y": 0.58,
+            "frequency": 3.6,
+            "name": "凤尾基",
+            "baseBrightness": 0.75,
+            "size": 3.2
+          },
+          "expectedRatio": [
+            1,
+            3
+          ],
+          "actualRatio": [
+            1,
+            3
+          ],
+          "frequencyFrom": 1.2,
+          "frequencyTo": 3.6,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b4": 1.2,
+              "b9": 3.6
+            },
+            "ratio": [
+              1.2,
+              3.6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:4, 实际 1:3"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b9",
+            "to": "b10",
+            "frequencyRatio": [
+              3,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "b9",
+            "x": 0.5,
+            "y": 0.58,
+            "frequency": 3.6,
+            "name": "凤尾基",
+            "baseBrightness": 0.75,
+            "size": 3.2
+          },
+          "toPoint": {
+            "id": "b10",
+            "x": 0.42,
+            "y": 0.72,
+            "frequency": 1.2,
+            "name": "左尾羽",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "expectedRatio": [
+            3,
+            1
+          ],
+          "actualRatio": [
+            3,
+            1
+          ],
+          "frequencyFrom": 3.6,
+          "frequencyTo": 1.2,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b9": 3.6,
+              "b10": 1.2
+            },
+            "ratio": [
+              1.2,
+              3.6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:4, 实际 3:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "b9",
+            "to": "b11",
+            "frequencyRatio": [
+              3,
+              5
+            ]
+          },
+          "fromPoint": {
+            "id": "b9",
+            "x": 0.5,
+            "y": 0.58,
+            "frequency": 3.6,
+            "name": "凤尾基",
+            "baseBrightness": 0.75,
+            "size": 3.2
+          },
+          "toPoint": {
+            "id": "b11",
+            "x": 0.58,
+            "y": 0.72,
+            "frequency": 6,
+            "name": "右尾羽",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "expectedRatio": [
+            3,
+            5
+          ],
+          "actualRatio": [
+            3,
+            5
+          ],
+          "frequencyFrom": 3.6,
+          "frequencyTo": 6,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "b9": 3.6,
+              "b11": 6
+            },
+            "ratio": [
+              3.6,
+              6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 3:5"
+          ]
+        }
+      ]
+    },
+    {
+      "levelId": 3,
+      "levelName": "祥瑞麒麟",
+      "creatureName": "麒麟",
+      "totalEdges": 15,
+      "passedEdges": 1,
+      "anomalyEdges": 14,
+      "edgeResults": [
+        {
+          "edge": {
+            "from": "c1",
+            "to": "c2",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "c1",
+            "x": 0.35,
+            "y": 0.25,
+            "frequency": 1.5,
+            "name": "左鹿角",
+            "baseBrightness": 0.88,
+            "size": 3.9
+          },
+          "toPoint": {
+            "id": "c2",
+            "x": 0.45,
+            "y": 0.22,
+            "frequency": 3,
+            "name": "头顶",
+            "baseBrightness": 0.92,
+            "size": 4.1
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1.5,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c1": 1.5,
+              "c2": 3
+            },
+            "ratio": [
+              1.5,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 1:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c2",
+            "to": "c3",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "c2",
+            "x": 0.45,
+            "y": 0.22,
+            "frequency": 3,
+            "name": "头顶",
+            "baseBrightness": 0.92,
+            "size": 4.1
+          },
+          "toPoint": {
+            "id": "c3",
+            "x": 0.55,
+            "y": 0.25,
+            "frequency": 1.5,
+            "name": "右鹿角",
+            "baseBrightness": 0.88,
+            "size": 3.9
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 3,
+          "frequencyTo": 1.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c2": 3,
+              "c3": 1.5
+            },
+            "ratio": [
+              1.5,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 2:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c1",
+            "to": "c4",
+            "frequencyRatio": [
+              1,
+              3
+            ]
+          },
+          "fromPoint": {
+            "id": "c1",
+            "x": 0.35,
+            "y": 0.25,
+            "frequency": 1.5,
+            "name": "左鹿角",
+            "baseBrightness": 0.88,
+            "size": 3.9
+          },
+          "toPoint": {
+            "id": "c4",
+            "x": 0.4,
+            "y": 0.35,
+            "frequency": 4.5,
+            "name": "左眼",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "expectedRatio": [
+            1,
+            3
+          ],
+          "actualRatio": [
+            1,
+            3
+          ],
+          "frequencyFrom": 1.5,
+          "frequencyTo": 4.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c1": 1.5,
+              "c4": 4.5
+            },
+            "ratio": [
+              1.5,
+              4.5
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:5, 实际 1:3"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c3",
+            "to": "c6",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "c3",
+            "x": 0.55,
+            "y": 0.25,
+            "frequency": 1.5,
+            "name": "右鹿角",
+            "baseBrightness": 0.88,
+            "size": 3.9
+          },
+          "toPoint": {
+            "id": "c6",
+            "x": 0.6,
+            "y": 0.35,
+            "frequency": 3,
+            "name": "右眼",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1.5,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c3": 1.5,
+              "c6": 3
+            },
+            "ratio": [
+              1.5,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 1:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c4",
+            "to": "c5",
+            "frequencyRatio": [
+              3,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "c4",
+            "x": 0.4,
+            "y": 0.35,
+            "frequency": 4.5,
+            "name": "左眼",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "toPoint": {
+            "id": "c5",
+            "x": 0.5,
+            "y": 0.38,
+            "frequency": 1.5,
+            "name": "鼻尖",
+            "baseBrightness": 0.9,
+            "size": 4
+          },
+          "expectedRatio": [
+            3,
+            1
+          ],
+          "actualRatio": [
+            3,
+            1
+          ],
+          "frequencyFrom": 4.5,
+          "frequencyTo": 1.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c4": 4.5,
+              "c5": 1.5
+            },
+            "ratio": [
+              1.5,
+              4.5
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:5, 实际 3:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c5",
+            "to": "c6",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "c5",
+            "x": 0.5,
+            "y": 0.38,
+            "frequency": 1.5,
+            "name": "鼻尖",
+            "baseBrightness": 0.9,
+            "size": 4
+          },
+          "toPoint": {
+            "id": "c6",
+            "x": 0.6,
+            "y": 0.35,
+            "frequency": 3,
+            "name": "右眼",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 1.5,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c5": 1.5,
+              "c6": 3
+            },
+            "ratio": [
+              1.5,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 1:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c4",
+            "to": "c7",
+            "frequencyRatio": [
+              3,
+              4
+            ]
+          },
+          "fromPoint": {
+            "id": "c4",
+            "x": 0.4,
+            "y": 0.35,
+            "frequency": 4.5,
+            "name": "左眼",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "toPoint": {
+            "id": "c7",
+            "x": 0.45,
+            "y": 0.5,
+            "frequency": 6,
+            "name": "前颈",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "expectedRatio": [
+            3,
+            4
+          ],
+          "actualRatio": [
+            3,
+            4
+          ],
+          "frequencyFrom": 4.5,
+          "frequencyTo": 6,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c4": 4.5,
+              "c7": 6
+            },
+            "ratio": [
+              4.5,
+              6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 5:6, 实际 3:4"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c6",
+            "to": "c8",
+            "frequencyRatio": [
+              2,
+              5
+            ]
+          },
+          "fromPoint": {
+            "id": "c6",
+            "x": 0.6,
+            "y": 0.35,
+            "frequency": 3,
+            "name": "右眼",
+            "baseBrightness": 0.85,
+            "size": 3.6
+          },
+          "toPoint": {
+            "id": "c8",
+            "x": 0.55,
+            "y": 0.5,
+            "frequency": 7.5,
+            "name": "后颈",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "expectedRatio": [
+            2,
+            5
+          ],
+          "actualRatio": [
+            2,
+            5
+          ],
+          "frequencyFrom": 3,
+          "frequencyTo": 7.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c6": 3,
+              "c8": 7.5
+            },
+            "ratio": [
+              3,
+              7.5
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 3:8, 实际 2:5"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c7",
+            "to": "c9",
+            "frequencyRatio": [
+              4,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "c7",
+            "x": 0.45,
+            "y": 0.5,
+            "frequency": 6,
+            "name": "前颈",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "toPoint": {
+            "id": "c9",
+            "x": 0.3,
+            "y": 0.6,
+            "frequency": 1.5,
+            "name": "左前蹄",
+            "baseBrightness": 0.82,
+            "size": 3.5
+          },
+          "expectedRatio": [
+            4,
+            1
+          ],
+          "actualRatio": [
+            4,
+            1
+          ],
+          "frequencyFrom": 6,
+          "frequencyTo": 1.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c7": 6,
+              "c9": 1.5
+            },
+            "ratio": [
+              1.5,
+              6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:3, 实际 4:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c8",
+            "to": "c10",
+            "frequencyRatio": [
+              5,
+              3
+            ]
+          },
+          "fromPoint": {
+            "id": "c8",
+            "x": 0.55,
+            "y": 0.5,
+            "frequency": 7.5,
+            "name": "后颈",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "toPoint": {
+            "id": "c10",
+            "x": 0.7,
+            "y": 0.6,
+            "frequency": 4.5,
+            "name": "右前蹄",
+            "baseBrightness": 0.82,
+            "size": 3.5
+          },
+          "expectedRatio": [
+            5,
+            3
+          ],
+          "actualRatio": [
+            5,
+            3
+          ],
+          "frequencyFrom": 7.5,
+          "frequencyTo": 4.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c8": 7.5,
+              "c10": 4.5
+            },
+            "ratio": [
+              4.5,
+              7.5
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 5:8, 实际 5:3"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c7",
+            "to": "c11",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "c7",
+            "x": 0.45,
+            "y": 0.5,
+            "frequency": 6,
+            "name": "前颈",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "toPoint": {
+            "id": "c11",
+            "x": 0.5,
+            "y": 0.68,
+            "frequency": 3,
+            "name": "脊背",
+            "baseBrightness": 1,
+            "size": 4.6
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 6,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c7": 6,
+              "c11": 3
+            },
+            "ratio": [
+              3,
+              6
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 1:2, 实际 2:1"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c8",
+            "to": "c11",
+            "frequencyRatio": [
+              5,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "c8",
+            "x": 0.55,
+            "y": 0.5,
+            "frequency": 7.5,
+            "name": "后颈",
+            "baseBrightness": 0.78,
+            "size": 3.3
+          },
+          "toPoint": {
+            "id": "c11",
+            "x": 0.5,
+            "y": 0.68,
+            "frequency": 3,
+            "name": "脊背",
+            "baseBrightness": 1,
+            "size": 4.6
+          },
+          "expectedRatio": [
+            5,
+            2
+          ],
+          "actualRatio": [
+            5,
+            2
+          ],
+          "frequencyFrom": 7.5,
+          "frequencyTo": 3,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c8": 7.5,
+              "c11": 3
+            },
+            "ratio": [
+              3,
+              7.5
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 3:8, 实际 5:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c9",
+            "to": "c12",
+            "frequencyRatio": [
+              1,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "c9",
+            "x": 0.3,
+            "y": 0.6,
+            "frequency": 1.5,
+            "name": "左前蹄",
+            "baseBrightness": 0.82,
+            "size": 3.5
+          },
+          "toPoint": {
+            "id": "c12",
+            "x": 0.25,
+            "y": 0.78,
+            "frequency": 1.5,
+            "name": "左后蹄",
+            "baseBrightness": 0.8,
+            "size": 3.4
+          },
+          "expectedRatio": [
+            1,
+            1
+          ],
+          "actualRatio": [
+            1,
+            1
+          ],
+          "frequencyFrom": 1.5,
+          "frequencyTo": 1.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c9": 1.5,
+              "c12": 1.5
+            },
+            "ratio": [
+              1.5,
+              1.5
+            ]
+          },
+          "isAnomaly": false,
+          "anomalyReasons": []
+        },
+        {
+          "edge": {
+            "from": "c10",
+            "to": "c13",
+            "frequencyRatio": [
+              1,
+              2
+            ]
+          },
+          "fromPoint": {
+            "id": "c10",
+            "x": 0.7,
+            "y": 0.6,
+            "frequency": 4.5,
+            "name": "右前蹄",
+            "baseBrightness": 0.82,
+            "size": 3.5
+          },
+          "toPoint": {
+            "id": "c13",
+            "x": 0.75,
+            "y": 0.78,
+            "frequency": 9,
+            "name": "右后蹄",
+            "baseBrightness": 0.8,
+            "size": 3.4
+          },
+          "expectedRatio": [
+            1,
+            2
+          ],
+          "actualRatio": [
+            1,
+            2
+          ],
+          "frequencyFrom": 4.5,
+          "frequencyTo": 9,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c10": 4.5,
+              "c13": 9
+            },
+            "ratio": [
+              4.5,
+              9
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 5:9, 实际 1:2"
+          ]
+        },
+        {
+          "edge": {
+            "from": "c11",
+            "to": "c14",
+            "frequencyRatio": [
+              2,
+              1
+            ]
+          },
+          "fromPoint": {
+            "id": "c11",
+            "x": 0.5,
+            "y": 0.68,
+            "frequency": 3,
+            "name": "脊背",
+            "baseBrightness": 1,
+            "size": 4.6
+          },
+          "toPoint": {
+            "id": "c14",
+            "x": 0.85,
+            "y": 0.65,
+            "frequency": 1.5,
+            "name": "尾尖",
+            "baseBrightness": 0.86,
+            "size": 3.7
+          },
+          "expectedRatio": [
+            2,
+            1
+          ],
+          "actualRatio": [
+            2,
+            1
+          ],
+          "frequencyFrom": 3,
+          "frequencyTo": 1.5,
+          "apiResult": {
+            "success": true,
+            "valid": true,
+            "isHarmonic": true,
+            "isDefinedEdge": true,
+            "frequencies": {
+              "c11": 3,
+              "c14": 1.5
+            },
+            "ratio": [
+              1.5,
+              3
+            ]
+          },
+          "isAnomaly": true,
+          "anomalyReasons": [
+            "API返回比例与实际不符: API 2:3, 实际 2:1"
+          ]
+        }
+      ]
+    }
+  ]
+}

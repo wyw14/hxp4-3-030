@@ -1,0 +1,289 @@
+════════════════════════════════════════════════════════════════════════════════
+  星脉自测沙盒 - 调试报告
+════════════════════════════════════════════════════════════════════════════════
+生成时间: 2026-06-20T06:29:09.340Z
+服务地址: http://localhost:3003
+服务状态: ✅ 可访问
+
+【总览统计】
+────────────────────────────────────────────────────────────────────────────────
+  关卡总数: 3
+  星脉总数: 33
+  通过数量: 5  (15.2%)
+  异常数量: 28  (84.8%)
+
+════════════════════════════════════════════════════════════════════════════════
+【关卡 1: 苍穹神龙 (苍龙)】
+────────────────────────────────────────────────────────────────────────────────
+  星脉总数: 7
+  通过: 2 | 异常: 5
+
+  ✅ a1 → a2  (龙角 → 龙眼)
+     频率: 1 : 2
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a1":1,"a2":2},"ratio":[1,2]}
+
+  ❌ a2 → a3  (龙眼 → 龙鼻)
+     频率: 2 : 1
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a2":2,"a3":1},"ratio":[1,2]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:2, 实际 2:1
+
+  ✅ a3 → a4  (龙鼻 → 龙颈)
+     频率: 1 : 3
+     预设比例: 1:3  (最简: 1:3)
+     实际比例: 1:3  (最简: 1:3)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a3":1,"a4":3},"ratio":[1,3]}
+
+  ❌ a4 → a5  (龙颈 → 龙心)
+     频率: 3 : 2
+     预设比例: 3:2  (最简: 3:2)
+     实际比例: 3:2  (最简: 3:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a4":3,"a5":2},"ratio":[2,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 3:2
+
+  ❌ a5 → a6  (龙心 → 龙爪)
+     频率: 2 : 1.5
+     预设比例: 4:3  (最简: 4:3)
+     实际比例: 4:3  (最简: 4:3)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a5":2,"a6":1.5},"ratio":[1.5,2]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:1, 实际 4:3
+
+  ❌ a6 → a7  (龙爪 → 龙脊)
+     频率: 1.5 : 3
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a6":1.5,"a7":3},"ratio":[1.5,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 1:2
+
+  ❌ a7 → a8  (龙脊 → 龙尾)
+     频率: 3 : 1
+     预设比例: 3:1  (最简: 3:1)
+     实际比例: 3:1  (最简: 3:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"a7":3,"a8":1},"ratio":[1,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:3, 实际 3:1
+
+════════════════════════════════════════════════════════════════════════════════
+【关卡 2: 涅槃凤凰 (朱雀)】
+────────────────────────────────────────────────────────────────────────────────
+  星脉总数: 11
+  通过: 2 | 异常: 9
+
+  ✅ b1 → b2  (凤冠 → 凤眼)
+     频率: 1.2 : 2.4
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b1":1.2,"b2":2.4},"ratio":[1.2,2.4]}
+
+  ❌ b1 → b3  (凤冠 → 凤眼)
+     频率: 1.2 : 3.6
+     预设比例: 1:3  (最简: 1:3)
+     实际比例: 1:3  (最简: 1:3)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b1":1.2,"b3":3.6},"ratio":[1.2,3.6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:4, 实际 1:3
+
+  ❌ b2 → b4  (凤眼 → 凤心)
+     频率: 2.4 : 1.2
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b2":2.4,"b4":1.2},"ratio":[1.2,2.4]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:2, 实际 2:1
+
+  ❌ b3 → b4  (凤眼 → 凤心)
+     频率: 3.6 : 1.2
+     预设比例: 3:1  (最简: 3:1)
+     实际比例: 3:1  (最简: 3:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b3":3.6,"b4":1.2},"ratio":[1.2,3.6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:4, 实际 3:1
+
+  ✅ b4 → b5  (凤心 → 左翼)
+     频率: 1.2 : 2.4
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b4":1.2,"b5":2.4},"ratio":[1.2,2.4]}
+
+  ❌ b5 → b6  (左翼 → 左翅尖)
+     频率: 2.4 : 1.2
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b5":2.4,"b6":1.2},"ratio":[1.2,2.4]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:2, 实际 2:1
+
+  ❌ b4 → b7  (凤心 → 右翼)
+     频率: 1.2 : 4.8
+     预设比例: 1:4  (最简: 1:4)
+     实际比例: 1:4  (最简: 1:4)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b4":1.2,"b7":4.8},"ratio":[1.2,4.8]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:5, 实际 1:4
+
+  ❌ b7 → b8  (右翼 → 右翅尖)
+     频率: 4.8 : 2.4
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b7":4.8,"b8":2.4},"ratio":[2.4,4.8]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:5, 实际 2:1
+
+  ❌ b4 → b9  (凤心 → 凤尾基)
+     频率: 1.2 : 3.6
+     预设比例: 1:3  (最简: 1:3)
+     实际比例: 1:3  (最简: 1:3)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b4":1.2,"b9":3.6},"ratio":[1.2,3.6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:4, 实际 1:3
+
+  ❌ b9 → b10  (凤尾基 → 左尾羽)
+     频率: 3.6 : 1.2
+     预设比例: 3:1  (最简: 3:1)
+     实际比例: 3:1  (最简: 3:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b9":3.6,"b10":1.2},"ratio":[1.2,3.6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:4, 实际 3:1
+
+  ❌ b9 → b11  (凤尾基 → 右尾羽)
+     频率: 3.6 : 6
+     预设比例: 3:5  (最简: 3:5)
+     实际比例: 3:5  (最简: 3:5)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"b9":3.6,"b11":6},"ratio":[3.6,6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 3:5
+
+════════════════════════════════════════════════════════════════════════════════
+【关卡 3: 祥瑞麒麟 (麒麟)】
+────────────────────────────────────────────────────────────────────────────────
+  星脉总数: 15
+  通过: 1 | 异常: 14
+
+  ❌ c1 → c2  (左鹿角 → 头顶)
+     频率: 1.5 : 3
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c1":1.5,"c2":3},"ratio":[1.5,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 1:2
+
+  ❌ c2 → c3  (头顶 → 右鹿角)
+     频率: 3 : 1.5
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c2":3,"c3":1.5},"ratio":[1.5,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 2:1
+
+  ❌ c1 → c4  (左鹿角 → 左眼)
+     频率: 1.5 : 4.5
+     预设比例: 1:3  (最简: 1:3)
+     实际比例: 1:3  (最简: 1:3)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c1":1.5,"c4":4.5},"ratio":[1.5,4.5]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:5, 实际 1:3
+
+  ❌ c3 → c6  (右鹿角 → 右眼)
+     频率: 1.5 : 3
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c3":1.5,"c6":3},"ratio":[1.5,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 1:2
+
+  ❌ c4 → c5  (左眼 → 鼻尖)
+     频率: 4.5 : 1.5
+     预设比例: 3:1  (最简: 3:1)
+     实际比例: 3:1  (最简: 3:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c4":4.5,"c5":1.5},"ratio":[1.5,4.5]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:5, 实际 3:1
+
+  ❌ c5 → c6  (鼻尖 → 右眼)
+     频率: 1.5 : 3
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c5":1.5,"c6":3},"ratio":[1.5,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 1:2
+
+  ❌ c4 → c7  (左眼 → 前颈)
+     频率: 4.5 : 6
+     预设比例: 3:4  (最简: 3:4)
+     实际比例: 3:4  (最简: 3:4)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c4":4.5,"c7":6},"ratio":[4.5,6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 5:6, 实际 3:4
+
+  ❌ c6 → c8  (右眼 → 后颈)
+     频率: 3 : 7.5
+     预设比例: 2:5  (最简: 2:5)
+     实际比例: 2:5  (最简: 2:5)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c6":3,"c8":7.5},"ratio":[3,7.5]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 3:8, 实际 2:5
+
+  ❌ c7 → c9  (前颈 → 左前蹄)
+     频率: 6 : 1.5
+     预设比例: 4:1  (最简: 4:1)
+     实际比例: 4:1  (最简: 4:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c7":6,"c9":1.5},"ratio":[1.5,6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:3, 实际 4:1
+
+  ❌ c8 → c10  (后颈 → 右前蹄)
+     频率: 7.5 : 4.5
+     预设比例: 5:3  (最简: 5:3)
+     实际比例: 5:3  (最简: 5:3)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c8":7.5,"c10":4.5},"ratio":[4.5,7.5]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 5:8, 实际 5:3
+
+  ❌ c7 → c11  (前颈 → 脊背)
+     频率: 6 : 3
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c7":6,"c11":3},"ratio":[3,6]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 1:2, 实际 2:1
+
+  ❌ c8 → c11  (后颈 → 脊背)
+     频率: 7.5 : 3
+     预设比例: 5:2  (最简: 5:2)
+     实际比例: 5:2  (最简: 5:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c8":7.5,"c11":3},"ratio":[3,7.5]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 3:8, 实际 5:2
+
+  ✅ c9 → c12  (左前蹄 → 左后蹄)
+     频率: 1.5 : 1.5
+     预设比例: 1:1  (最简: 1:1)
+     实际比例: 1:1  (最简: 1:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c9":1.5,"c12":1.5},"ratio":[1.5,1.5]}
+
+  ❌ c10 → c13  (右前蹄 → 右后蹄)
+     频率: 4.5 : 9
+     预设比例: 1:2  (最简: 1:2)
+     实际比例: 1:2  (最简: 1:2)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c10":4.5,"c13":9},"ratio":[4.5,9]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 5:9, 实际 1:2
+
+  ❌ c11 → c14  (脊背 → 尾尖)
+     频率: 3 : 1.5
+     预设比例: 2:1  (最简: 2:1)
+     实际比例: 2:1  (最简: 2:1)
+     API结果: {"success":true,"valid":true,"isHarmonic":true,"isDefinedEdge":true,"frequencies":{"c11":3,"c14":1.5},"ratio":[1.5,3]}
+     异常原因:
+       ⚠ API返回比例与实际不符: API 2:3, 实际 2:1
+
+════════════════════════════════════════════════════════════════════════════════
+  报告结束
+════════════════════════════════════════════════════════════════════════════════
